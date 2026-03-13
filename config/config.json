@@ -1,0 +1,20 @@
+{
+  "active_ai_provider": "gemini",
+  "providers": {
+    "gemini": {
+      "enabled": true,
+      "model": "gemini-1.5-flash"
+    },
+    "huggingface": {
+      "enabled": true,
+      "model": "mistralai/Mistral-7B-Instruct-v0.3"
+    },
+    "openai": {
+      "enabled": false,
+      "model": "gpt-4.1-mini"
+    }
+  },
+  "test_environment" : {
+    "url": "https://parabank.parasoft.com/parabank/index.htm"
+  }
+}

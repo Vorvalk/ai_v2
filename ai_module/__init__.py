@@ -1,0 +1,1 @@
+from ai_module.service import get_element_locator
