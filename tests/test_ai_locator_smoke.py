@@ -93,6 +93,7 @@ async def resolve_locator(page, locator_json: str):
     errors = []
 
     for index, candidate in enumerate(candidates, start=1):
+        print(f"Trying AI candidate #{index}: {candidate}")
         try:
             locator = build_locator_from_data(page, candidate)
             if await is_good_text_input(locator):
